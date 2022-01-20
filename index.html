@@ -1,0 +1,647 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <title> قراءة العقل </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\faveicon.png">
+
+    <link href="css\bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css\materialize.min.css" rel="stylesheet" type="text/css">
+    <link href="css\material-rtl.css" rel="stylesheet" type="text/css">
+    <link href="css\font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css\jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="css\animate.css" rel="stylesheet" type="text/css">
+    <link href="css\owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css\select2.min.css" rel="stylesheet">
+    <link href="css\fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="css\explorer\theme.css" rel="stylesheet">
+    <link href="css\passwordscheck.css" rel="stylesheet">
+    <link href="css\style.css" rel="stylesheet" type="text/css">
+    <style>
+        .blue.darken-3 {
+            background-color: #6ec9dc !important;
+        }
+
+        .btn, .btn-large {
+            background-color: #6ec9dc;
+        }
+
+        .btn:hover, .btn-large:hover {
+            background-color: #6ec9dc;
+        }
+
+        .main-footer .footer-rights {
+            padding: 20px 0;
+            background-color: #000;
+            margin-top: 0;
+        }
+
+        .main-footer {
+            background-color: #111;
+            padding: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader tri"></div>
+<div class="loader tri2"></div>
+<div class="loader tri3"></div>
+<div class="loader tri4"></div>
+<div class="loader circ"></div>
+<div class="loader circ2"></div>
+    </div>
+    <!-- End Page Loader -->
+
+    <div class="main-wrapper">
+        <header class="main-head col-xs-12">
+            <div class="top-bar col-xs-12">
+                <div class="container">
+                    <div class="social-links">
+                        <ul>
+                            <li>
+                                <a href="#" class="facebook btn waves-effect">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter btn waves-effect">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="linkedin btn waves-effect">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="youtube btn waves-effect">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="whats btn waves-effect">
+                                    <i class="fa fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="make-ad">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="header-content con1 col-xs-12">
+                <div class="container">
+                    <div class="logo">
+                        <h1>
+                        <a href="#">
+                            <img src="images\logo-header.png" alt="">
+                        </a>
+                    </h1>
+                    </div>
+                    <div class="main-nav">
+                        <ul>
+                            <li>
+                                <a href="#">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="#">من نحن</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">
+                                    <i class="fa fa-angle-down"></i>البرامج التدريبية
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-left all-down">
+                                    <li>
+                                        <a href="#">برنامج 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">برنامج 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">برنامج 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">برنامج 4</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">الباقات</a>
+                            </li>
+                            <li>
+                                <a href="#">تواصل معنا</a>
+                            </li>
+                            
+                            <li class="has-search">
+                                <a class="open-fix-search">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user-sign">
+                        <a href="#" class="btn waves-effect blue darken-3">
+                            <i class="fa fa-user"></i>
+                            <span>دخول / عضوية جديدة</span>
+                        </a>
+                        <button type="button" class="open-mob-nav btn waves-effect blue darken-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="fixed-search col-xs-12">
+                    <form action="#" method="get">
+                        <div class="input-field">
+                            <input type="search" id="fsearch">
+                            <label id="fsearch">ابحث هنا</label>
+                            <button type="submit" class="btn waves-effect">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="main-search col-xs-12">
+            <div class="search-form col-xs-12">
+                <div class="container">
+                    <div class="row">
+                        <h1 style="text-align:center;color:white;font-size: 40px;padding: 0 0 10% 0;">البرنامج السعودي لقراءة العقل</h1>
+                    </div>
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <div class="input-field">
+                                <input id="last_name" type="search" class="form-control autocomplete">
+                                <label for="last_name">ابحث عن ما تريد</label>
+                                <button class="btn waves-effect">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="features col-xs-12">
+            <div class="container">
+                <div class="public-head">
+                    <h3>مميزاتنا</h3>
+                    <div class="head-divider">
+                        <span>
+                            <i class="fa fa-diamond"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="features-body">
+                    
+                  
+
+                    <div class="block col-md-12 col-xs-12">
+                        <div class="inner">
+                            <div class="inner-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="inner-body">
+                                <h4></h4>
+                                <p>
+                                    والهدف الرئيسي من هذا البرنامج يرتكز على تطوير  عقل الأطفال ذوي اضطراب طيف التوحد في تعرفهم على مشاعر من حوله من حزن وسعادة وغضب وخوف ثم يربط الانفعال الوجداني الظاهر علي وجه الشخص بالموقف ثم يتطور ويستطيع إدراك أن المشاعر الظاهرة لها علاقة برغبة الإنسان وعدم رغبته الداخلية ثم يتطور أكثر وأكثر ليدرك أن المشاعر الظاهرة علي وجه الشخص تكون مرتبطة باعتقاده
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-12 col-xs-12">
+                        <div class="inner">
+                            <div class="inner-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="inner-body">
+                                <h4></h4>
+                                <p>
+                                    هو برنامج للتدريب علي مهارات نظرية العقل للأطفال من ذوي اضطراب طيف التوحد وذوي التأخر المعرفي يعتبر هذا البرنامج من أوائل البرامج المصممة لغرض تدريب الأطفال من ذوي اضطراب طيف التوحد على قراءة العقل
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="block col-md-12 col-xs-12">
+                        <div class="inner">
+                            <div class="inner-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="inner-body">
+                                <h4></h4>
+                                <p>
+                                    الفئة العمرية المستهدفة من 4: 13 عاما على أن يكون الطفل ذو عمر لفظي 5 سنوات
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-12 col-xs-12">
+                        <div class="inner">
+                            <div class="inner-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="inner-body">
+                                <h4></h4>
+                                <p>
+                                    سهل على اولاياء الامور أو معلمين التربية الخاصة أو إخصائيين التخاطب استخدامه
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="courses-box col-xs-12">
+            <div class="container">
+                <div class="public-head">
+                    <h3>البرامج التدريبية</h3>
+                    <div class="head-divider">
+                        <span>
+                            <i class="fa fa-book"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="courses-block">
+                    <div class="block col-md-4 col-xs-12">
+                        <div class="inner card">
+                            <div class="inner-img">
+                                <img src="images\book.jpg" alt="">
+                                <div class="img-caption">
+                                    <div class="caption-extra">
+                                        <div class="extra-item">
+                                            <div class="item-img">
+                                                <img src="images\212.jpg" alt="">
+                                            </div>
+                                            <div class="item-data">
+                                                <a href="#">أستاذ دكتور / امير ناجح</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-inner">
+                                        <!--<span class="pink">برمجة</span>-->
+                                        <p>
+                                            <a href="#">برنامج تدريبي 1</a>
+                                        </p>
+                                        <!--<div class="date">
+                                            <p>
+                                                <i class="fa fa-calendar"></i> 11 ديسمبر 2017
+                                            </p>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-4 col-xs-12">
+                        <div class="inner card">
+                            <div class="inner-img">
+                                <img src="images\book.jpg" alt="">
+                                <div class="img-caption">
+                                    <div class="caption-extra">
+                                        <div class="extra-item">
+                                            <div class="item-img">
+                                                <img src="images\212.jpg" alt="">
+                                            </div>
+                                            <div class="item-data">
+                                                <a href="#">أستاذ دكتور / امير ناجح</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-inner">
+                                        <!--<span class="pink">برمجة</span>-->
+                                        <p>
+                                            <a href="#">برنامج تدريبي 1</a>
+                                        </p>
+                                        <!--<div class="date">
+                            <p>
+                                <i class="fa fa-calendar"></i> 11 ديسمبر 2017
+                            </p>
+                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-4 col-xs-12">
+                        <div class="inner card">
+                            <div class="inner-img">
+                                <img src="images\book.jpg" alt="">
+                                <div class="img-caption">
+                                    <div class="caption-extra">
+                                        <div class="extra-item">
+                                            <div class="item-img">
+                                                <img src="images\212.jpg" alt="">
+                                            </div>
+                                            <div class="item-data">
+                                                <a href="#">أستاذ دكتور / امير ناجح</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-inner">
+                                        <!--<span class="pink">برمجة</span>-->
+                                        <p>
+                                            <a href="#">برنامج تدريبي 1</a>
+                                        </p>
+                                        <!--<div class="date">
+                            <p>
+                                <i class="fa fa-calendar"></i> 11 ديسمبر 2017
+                            </p>
+                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-4 col-xs-12">
+                        <div class="inner card">
+                            <div class="inner-img">
+                                <img src="images\book.jpg" alt="">
+                                <div class="img-caption">
+                                    <div class="caption-extra">
+                                        <div class="extra-item">
+                                            <div class="item-img">
+                                                <img src="images\212.jpg" alt="">
+                                            </div>
+                                            <div class="item-data">
+                                                <a href="#">أستاذ دكتور / امير ناجح</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-inner">
+                                        <!--<span class="pink">برمجة</span>-->
+                                        <p>
+                                            <a href="#">برنامج تدريبي 1</a>
+                                        </p>
+                                        <!--<div class="date">
+                            <p>
+                                <i class="fa fa-calendar"></i> 11 ديسمبر 2017
+                            </p>
+                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-4 col-xs-12">
+                        <div class="inner card">
+                            <div class="inner-img">
+                                <img src="images\book.jpg" alt="">
+                                <div class="img-caption">
+                                    <div class="caption-extra">
+                                        <div class="extra-item">
+                                            <div class="item-img">
+                                                <img src="images\212.jpg" alt="">
+                                            </div>
+                                            <div class="item-data">
+                                                <a href="#">أستاذ دكتور / امير ناجح</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-inner">
+                                        <!--<span class="pink">برمجة</span>-->
+                                        <p>
+                                            <a href="#">برنامج تدريبي 1</a>
+                                        </p>
+                                        <!--<div class="date">
+                            <p>
+                                <i class="fa fa-calendar"></i> 11 ديسمبر 2017
+                            </p>
+                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block col-md-4 col-xs-12">
+                        <div class="inner card">
+                            <div class="inner-img">
+                                <img src="images\book.jpg" alt="">
+                                <div class="img-caption">
+                                    <div class="caption-extra">
+                                        <div class="extra-item">
+                                            <div class="item-img">
+                                                <img src="images\212.jpg" alt="">
+                                            </div>
+                                            <div class="item-data">
+                                                <a href="#">أستاذ دكتور / امير ناجح</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-inner">
+                                        <!--<span class="pink">برمجة</span>-->
+                                        <p>
+                                            <a href="#">برنامج تدريبي 1</a>
+                                        </p>
+                                        <!--<div class="date">
+                            <p>
+                                <i class="fa fa-calendar"></i> 11 ديسمبر 2017
+                            </p>
+                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="ads-box col-xs-12">
+            <div class="container">
+                <div class="public-head">
+                    <h3>الباقات</h3>
+                    <div class="head-divider">
+                        <span>
+                            <i class="fa fa-bullhorn"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="ads-body">
+                    <div class="ads-carousel col-xs-12">
+                        <!--<div class="carousel-header">
+                            <h3>الاعلانات الفضية</h3>
+                        </div>-->
+                        <div class="ads-slider gold-slider">
+                            <div class="ad-item">
+                                <div class="ad-inner card gold">
+                                    <div class="ad-title">
+                                        <h3>
+                                            <a href="#">
+                                                الباقة الذهبية
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="ad-img">
+                                        <img src="images\book.jpg" style="width:100%;height:100%" alt="">
+                                    </div>
+                                    <div class="ad-price">
+                                        <i class="price-num">300$</i>
+                                    </div>
+                                    <div class="ad-user">
+                                        <div class="user-data">
+                                            <div class="usr-img">
+                                                <img src="images\205.jpg" alt="">
+                                            </div>
+                                            <div class="usr-name">
+                                                <a href="#"> أستاذ دكتور / أمير ناجح</a>
+                                            </div>
+                                        </div>
+                                        <div class="students-num">
+                                            <!--<span>
+                        <i class="fa fa-group"></i>
+                        45
+                    </span>-->
+                                        </div>
+                                    </div>
+                                    <div class="ad-data">
+                                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحةهناك حقيقة مثبتة منذ </p>
+                                        <a href="#" class="btn waves-effect">
+                                            <i class="fa fa-eye"></i> تفاصيل الباقة
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ad-item">
+                                <div class="ad-inner card pronze">
+                                    <div class="ad-title">
+                                        <h3>
+                                            <a href="#">
+                                                الباقة البرونزية
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="ad-img">
+                                        <img src="images\book.jpg" style="width:100%;height:100%" alt="">
+                                    </div>
+                                    <div class="ad-price">
+                                        <i class="price-num">200$</i>
+                                    </div>
+                                    <div class="ad-user">
+                                        <div class="user-data">
+                                            <div class="usr-img">
+                                                <img src="images\205.jpg" alt="">
+                                            </div>
+                                            <div class="usr-name">
+                                                <a href="#"> أستاذ دكتور / أمير ناجح</a>
+                                            </div>
+                                        </div>
+                                        <div class="students-num">
+                                            <!--<span>
+                        <i class="fa fa-group"></i>
+                        45
+                    </span>-->
+                                        </div>
+                                    </div>
+                                    <div class="ad-data">
+                                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحةهناك حقيقة مثبتة منذ </p>
+                                        <a href="#" class="btn waves-effect">
+                                            <i class="fa fa-eye"></i> تفاصيل الباقة
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ad-item">
+                                <div class="ad-inner card silver">
+                                    <div class="ad-title">
+                                        <h3>
+                                    <a href="#">
+                                        الباقة الفضية (مجانية)
+                                    </a>
+                                </h3>
+                                    </div>
+                                    <div class="ad-img">
+                                        <img src="images\book.jpg" style="width:100%;height:100%" alt="">
+                                    </div>
+                                    <div class="ad-price">
+                                        <i class="price-num">0$</i>
+                                    </div>
+                                    <div class="ad-user">
+                                        <div class="user-data">
+                                            <div class="usr-img">
+                                                <img src="images\205.jpg" alt="">
+                                            </div>
+                                            <div class="usr-name">
+                                                <a href="#"> أستاذ دكتور / أمير ناجح</a>
+                                            </div>
+                                        </div>
+                                        <div class="students-num">
+                                            <!--<span>
+                                            <i class="fa fa-group"></i>
+                                            45
+                                        </span>-->
+                                        </div>
+                                    </div>
+                                    <div class="ad-data">
+                                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحةهناك حقيقة مثبتة منذ </p>
+                                        <a href="#" class="btn waves-effect">
+                                            <i class="fa fa-eye"></i> تفاصيل الباقة
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="main-footer col-xs-12">
+            <div class="footer-rights col-xs-12">
+                <div class="container">
+                    <div class="copyright col-md-12 text-center">
+                        <p>جميع الحقوق محفوظة لدي البرنامج السعودي لقراءة العقل &copy; 2022</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- end main-wrapper -->
+
+    <div class="toTop col-xs-12 text-center">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- /.toTop -->
+    <!-- Javascript Files -->
+    <script src="js\jquery-2.2.2.min.js" type="text/javascript"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\materialize.min.js" type="text/javascript"></script>
+
+    <script src="js\jquery-smoothscroll.js" type="text/javascript"></script>
+    <script src="js\modernizr.min.js" type="text/javascript"></script>
+    <script src="js\wow.min.js" type="text/javascript"></script>
+    <script src="js\jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+    <script src="js\owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js\select2.full.min.js"></script>
+    <script src="js\fileinput.min.js" type="text/javascript"></script>
+    <script src="css\explorer\theme.js"></script>
+    <script src="js\passwordscheck.js" type="text/javascript"></script>
+    <script src="js\script.js" type="text/javascript"></script>
+</body>
+
+</html>
